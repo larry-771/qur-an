@@ -1,0 +1,45 @@
+:root {
+  font-family:
+    "Segoe UI",
+    "Noto Naskh Arabic",
+    "Amiri",
+    Tahoma,
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #2d2217;
+  background:
+    radial-gradient(circle at top, rgba(244, 214, 149, 0.32), transparent 34%),
+    linear-gradient(180deg, #fbf5e8 0%, #efe4d1 44%, #e8dcc7 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  border: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
